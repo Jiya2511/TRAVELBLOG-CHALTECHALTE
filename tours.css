@@ -1,0 +1,125 @@
+#chalo {
+    font-family: 'Papyrus', fantasy;
+    font-size: 50px;
+    color: #deb77c;
+    text-align: center;
+    margin-top: 10px;
+      
+      
+}
+
+.navbar ul {
+    list-style-type: none;
+    background: rgba(232, 221, 186, 0.1); /* Almost transparent */
+    backdrop-filter: blur(0px); /* Strong blur effect */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    color: #c39134;
+    text-decoration: none;
+    padding: 25px 30px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+    padding-right: 80px;
+
+}
+
+.navbar a:hover {
+    background-color: #f7dca2;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;  /* Set a clean, readable font */
+    text-align: center;  /* Center align text */
+    margin: 0;
+    padding: 0;
+    background-color: #f5e1c4;  /* Light background color */
+    color: #fff;  /* Dark text color for good contrast */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 50px;
+    color: #c08d0d;  /* Greenish color for the heading */
+    margin-top: 50px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #555;  /* Slightly lighter text color for the paragraph */
+}
+
+ /* Container for the image and overlay */
+ .image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Blur effect for the image */
+.spiritual {
+    width: 70%;
+    height: 80vh;
+    object-fit: cover;  /* Ensure image covers the area */
+   /* filter: blur(1px);   Apply gentle blur effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;  /* Send image to background */
+    margin-left: 250px;
+}
+
+/* Overlay text */
+.overlay-text {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    max-width: 70%;
+    padding: 20px;
+}
+
+.overlay-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: -400px;
+    color: #a5d6eb;
+}
+
+.overlay-text p {
+    font-size: 20px;
+    line-height: 1.5;
+    color:#fff;
+    margin-top: -60px;
+}
+footer {
+    background-color: #966c2f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+

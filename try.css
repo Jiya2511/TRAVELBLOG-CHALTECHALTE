@@ -1,0 +1,91 @@
+header h1 {
+    margin: 0;
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #110314;
+  }
+  .theysay {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.box-container {
+    display: flex;
+    flex-direction: column; /* Stack boxes vertically */
+    align-items: center; /* Center boxes horizontally */
+    gap: 20px; /* Spacing between boxes */
+}
+
+.box1 {
+    width: 500px;  /* Ensuring both boxes have the same width */
+    height: 500px; /* Ensuring both boxes have the same height */
+    background-color: rgb(255, 255, 255); /* Change color as per your theme */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional for better styling */
+    margin-left: -750px;
+}
+.box {
+    width: 500px;  /* Ensuring both boxes have the same width */
+    height: 500px; /* Ensuring both boxes have the same height */
+    background-color:rgb(255, 255, 255); /* Change color as per your theme */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional for better styling */
+    margin-left: 300px;
+    margin-right: -600px;
+    margin-top: -500px;
+    margin-bottom: 100px;
+
+
+}
+.custom-bullets li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #941a04; /* Link color */
+}
+
+.custom-bullets li {
+    margin-top: 50px;
+    position: relative;
+    list-style: none; /* Removes default bullets */
+    padding-left: 20px; /* Space for custom bullets */
+    margin-right: 350px;
+    margin-bottom: 20px;
+}
+
+.custom-bullets li::before {
+    content: "●"; /* Custom bullet */
+    color: rgb(90, 14, 26); /* Bullet color */
+    font-size: 16px; /* Bullet size */
+    position: absolute;
+    left: 0; /* Aligns bullet properly */
+    margin-right: 200px;
+}
+.philosophy-btn {
+    padding: 40px 120px;
+    font-size: 30px;
+    background-color: #966c2f;
+    color: white;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    margin-bottom:-120px;
+    margin-right: -100px;
+    text-decoration: none;
+
+
+}
+

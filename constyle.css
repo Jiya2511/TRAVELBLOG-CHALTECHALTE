@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+
+    width: 100%;
+    background-image: url(bgcover.webp);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding:0;
+    overflow:hidden;
+h1 {
+
+    font-family: 'Papyrus', fantasy;
+    font-size: 50px;
+    color: #deb77c;
+    text-align: left;
+    margin-top: -135px;
+      
+      
+}
+
+.navbar ul {
+    list-style-type: none;
+    background: rgba(232, 221, 186, 0.1); /* Almost transparent */
+    backdrop-filter: blur(0px); /* Strong blur effect */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    color: #c39134;
+    text-decoration: none;
+    padding: 25px 30px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+    padding-right: 80px;
+
+}
+
+.navbar a:hover {
+    background-color: #f7dca2;
+} 
+.about-box {
+    width: 100%; /* Adjust width as needed */
+    max-width: 2000px; /* Prevents it from being too wide on large screens */
+    margin: 50px auto ; /* Centers the box */
+    padding: 250px;
+    backdrop-filter:blur(0px);  /*Light blur for a glass effect */
+    border-radius: 15px; /* Soft rounded edges */
+    color: #b55935; /* Text color (change as needed) */
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+h2{
+        
+        position: absolute;
+    top: 10px; /* Adjust spacing from the top */
+    left: 48%;
+    transform: translateX(-50%); /* Center the heading */
+    font-family: 'Papyrus', fantasy;
+    font-size: 120px;
+    font-weight: bold;
+    color: #752b0c;
+    text-align: center;
+    word-spacing: 25px;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+p{
+    font-size: 30px;
+    margin-bottom:20px;
+    position: absolute;
+    top: 220px; /* Adjust spacing from the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center the heading */
+    font-family: "Sumana", serif;
+  font-weight: 700;
+  font-style: normal;
+    color: #752b0c;
+    text-align: center;
+}
+.custom-button {
+    background: rgba(232, 17, 17, 0.2); /* Transparent button */
+    backdrop-filter: blur(5px); /* Light blur effect */
+    border: 2px solid #fff; /* White border */
+    color: #fff; /* White text */
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 220px;
+}
+
+.custom-button:hover {
+    background: rgba(255, 255, 255, 0.4); /* Slightly more visible on hover */
+    transform: scale(1.05); /* Smooth zoom effect */
+}
+}
+
+
+
+/* Container for the section with text and images */
+
+*{
+    margin:0;
+    border:border-box; 
+ }.content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 50px;
+     background-color: #f5e1c4;
+     width: 100%;
+     height: 100vh;
+     
+ }
+ 
+ /* Container for images aligned diagonally */
+ .image-text-container {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     position: relative;
+     width: 50%; /* Occupies left half */
+ }
+ 
+ .first-image {
+     margin-top:-400px;
+     width: 450px;
+     height: 330px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+ 
+ .image2 {
+     margin-top:-350px;
+     width: 450px;
+     height: 330px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+     position: absolute;
+     top: 200px;
+     left: 200px;
+ }
+ 
+ .bottom-left-image {
+     margin-top:-300px;
+     width: 450px;
+     height: 330px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+     position: absolute;
+     top: 360px;
+     left: 500px;
+ }
+ 
+ /* Text container on the right */
+ .ptext {
+     font-size: 40px;
+     text-align: left;
+     color: #333;
+     max-width: 50%;
+     line-height: 1.5;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-top:-250px;
+ }
+ 
+ /* Styling for the main heading */
+ h3 {
+     font-size: 40px;
+     font-family: 'Papyrus', fantasy;
+     color: #d36e3b;
+     margin-bottom: 20px;
+     text-align: left;
+     white-space: nowrap;
+     margin-top:-250px;
+ }
+ 
+ /* Styling for paragraph text */
+ .ptext p {
+     font-size: 18px;
+     color: #555;
+     line-height: 1.6;
+     font-family: 'Sumana', serif;
+ }
+ 
+ /* Button Styling */
+ .philosophy-btn {
+    padding: 40px 120px;
+    font-size: 30px;
+    background-color: #966c2f;
+    color: white;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: -120px;
+    margin-right: -100px;
+    text-decoration: none; /* This is to ensure the button doesn't have underlines */
+}
+
+.philosophy-btn a {
+    text-decoration: none; /* Removes the underline from the link */
+    color: white; /* Changes the link color to white */
+    display: block; /* Makes sure the link behaves like a block element inside the button */
+}
+
+ .philosophy-btn:hover {
+     background-color: #d5b653;
+ } 
+ 
+ .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #f5e1c4;
+    width:100%;
+}
+
+.mission h1 {
+    font-size: 36px;
+    font-family: 'Papyrus', fantasy;
+    color: #d36e3b;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Sumana', serif;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+/* Mission images aligned in portrait mode */
+.mission .centered-image {
+    width: 500px;
+    height:600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    
+}
+
+.mission .left-image {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    align-self: flex-start;
+    margin-top:-40%;
+}
+
+.mission .right-image {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    align-self: flex-end;
+    margin-top:-39%;
+}
+.page-footer {
+    width: 107%; /* Adjusted to 100% for proper footer width */
+    height: 150px;
+    background-color: #966c2f;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Sumana', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute items evenly */
+    font-weight: bold;
+    padding: 0 20px; /* Optional, adds padding around the footer */
+}
+
+.page-footer h3 {
+    margin: 0;
+    font-family: 'Sumana',serif;
+    color:#fff /* Remove default margin from the h3 elements */
+}
+
+
+    .aim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        background-color: #f5e1c4;
+        width:100%;
+        height:100vh; 
+        
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+    }
+    
+    .flower {
+        width: 450px;
+        height: auto;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    #header {
+        
+        text-align: right;
+        margin-bottom: 20px;
+        flex: 1;
+        font-size:70px;
+        color: #853256;
+        margin-left: 500px;
+        gap:40px;
+        font-family: 'Papyrus', fantasy;
+    }
+    
+    #header2 {
+        
+        text-align: right;
+        /*line-height: 1.6;*/
+        max-width: 1000px;
+        /*flex: 1;*/
+        font-size:28px;
+        color:#9f7331;
+        margin-left:500px;
+        margin-bottom: 700px;
+        
+            font-family: "Poiret One", serif;
+            font-weight: 400;
+            font-style: normal;
+          
+    }
+    .custom-bullets {
+        padding-left: 25px; /* Aligns bullets properly under the text */
+        list-style-position: inside; /* Ensures bullets align with text */
+        font-weight: 600;/* Custom font */
+         /* Text color */
+    }
+    
+    .custom-bullets li {
+        margin-top: 50px;
+        position: relative;
+        list-style: none; /* Removes default bullets */
+        padding-left: 30px; /* Adjusts space for custom bullets and text alignment */
+        margin-right: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .custom-bullets li::before {
+        content: "●"; /* Custom bullet */
+        color: black; /* Bullet color */
+        font-size: 16px; /* Bullet size */
+        position: absolute;
+        left: 0; /* Aligns bullet properly */
+        top: 0; /* Aligns bullet with the text */
+    }
+    
+    .custom-bullets li a {
+        text-decoration: none; /* Removes underline from links */
+        color: #4d153c; /* Link color */
+        display:inline; /* Ensures text aligns with bullet */
+        padding-left: 5px; /* Adds a small space between bullet and text */
+    }
+    
+    /* Change text color on hover */
+    .custom-bullets li a:hover {
+        color: rgb(17, 123, 205); /* Hover color (you can choose any color you prefer) */
+    }
+    
+    .theysay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        background-color: #f5e1c4;
+        width: 100%;
+        height: 100vh;
+        justify-content: flex-start; /* Adjusted to ensure content is spaced well */
+        position: relative;
+    }
+    
+    #review {
+        font-size: 70px;
+        color: #752b0c;
+        margin-top: 60px; /* Keeps space between top of the page and heading */
+        margin-bottom: 20px; /* Reduces space between heading and paragraph */
+    }
+    
+    .theysay p {
+        font-size: 20px; /* Adjust paragraph font size */
+        color: #333; /* Optional: Change text color for better contrast */
+        max-width: 80%; /* Limits width for better readability */
+        margin: 0; /* Removes default margins */
+    }
+    
+    .box-container {
+        display: flex;
+        flex-direction: row; /* Side by side alignment */
+        gap: 30px; /* Space between boxes */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Ensures responsiveness */
+        margin-top: 30px; /* Adds space between paragraph and boxes */
+    }
+    
+    .box {
+        width: 500px;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column; /* Heading on top, text below */
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    
+    .box h2 {
+        font-size: 22px;
+        margin-bottom: 15px; /* Spacing between heading and text */
+        color: #752b0c;
+    }
+    .last {
+        position: relative;  /* To position the box on top of the images */
+        width: 100%;
+        height: 100vh;  /* Full viewport height */
+        display: flex;
+        justify-content: center;  /* Center the content horizontally */
+        align-items: center;  /* Center the content vertically */
+    }
+    
+    .image-container {
+        display: flex;
+        width: 100%;  /* Full width of the page */
+        justify-content: space-between;  /* Place the images at the extreme left and right */
+    }
+    
+    .map, .sclup {
+        width: 50%;  /* Each image takes up 48% of the page width */
+        height: auto;  /* Maintain aspect ratio */
+    }
+    
+    .overlay-box {
+        position: absolute;
+        top: 50%;  /* Position the box in the middle of the page */
+        left: 50%;  /* Center horizontally */
+        transform: translate(-50%, -50%);  /* Adjust the position to be exactly in the center */
+        background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 40%;  /* Adjust width as needed */
+    }
+    
+    .overlay-box h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .overlay-box p {
+        font-size: 18px;
+    }
+    
+footer {
+    
+    background-color: #966c2f;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+  }
+  
+
+    
